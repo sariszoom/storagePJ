@@ -1,41 +1,105 @@
+*{
+    box-sizing: border-box;
+}
 body {
     display: flex;
     justify-content: center;
-    background-color: lightblue;
+    background-color: #6fbbf5;
 }
 
 form {
     display: flex;
     flex-direction: column;
-}
-.input-field {
-    position: relative;
-    margin-top: 2rem;
-}
-.input-field input {
-    padding: 0.8rem;
+    justify-content: center;
 }
 
-form .input-field:first-child {
-    margin-bottom: 1.5rem;
-}
-.ALogin {
+.containerLogin {
     position: relative;
-    margin-left: 2rem;
+    margin: 150px 10px 50px 800px;
+    border-radius: 10%;
+    background-color: white;
+    
+}
+
+.textLogin {
+    text-align: center;
+    font-size: 30px;
+}
+
+.inputLogin {
+    
+    margin-top: 2.5rem;
+    text-align: center;
+    
+    
+}
+
+.inputLogin input {
+    
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+.submitLogin {
+    position: relative;
+    margin: 20px 75px 75px 90px;
 }
 
 form input[type="submit"] {
-    background: linear-gradient(to left, #6fbbf5, #8e54e9);
-    color: beige;
-    border-radius: 4px;
-    margin-top: 2rem;
+    background-color: limegreen;
+    color: white;
+    border-radius: 10px;
+    margin-top: 1rem;
     padding: 0.4rem;
+    font-size: 20px;
 }
 
-/* form input[type="submit1" ] {
-    background: linear-gradient(to left, #6fbbf5, #8e54e9);
-    color: beige;
-    border-radius: 4px;
-    margin-top: 4rem;
+.swapLogin {
+    /* margin-left: 175px; */
+    text-align: center;
+    margin-top: 20%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .input-field {
+    position: relative;
+    flex-direction: row;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.input-field input {
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+.Login {
+    position: relative;
+    margin: 20px 75px 75px 90px;
+}
+
+form input[type="submit"] {
+    background-color: limegreen;
+    color: white;
+    border-radius: 10px;
+    margin-top: 1rem;
     padding: 0.4rem;
+    font-size: 30px;
+}
+
+.swapPage {
+    margin-left: 175px;
 } */
+
