@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+.input-field {
+    position: relative;
+    margin-top: 2rem;
+}
+.input-field input {
+    padding: 0.8rem;
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+.ALogin {
+    position: relative;
+    margin-left: 2rem;
+}
+
+form input[type="submit"] {
+    background: linear-gradient(to left, #6fbbf5, #8e54e9);
+    color: beige;
+    border-radius: 4px;
+    margin-top: 2rem;
+    padding: 0.4rem;
+}
+
+/* form input[type="submit1" ] {
+    background: linear-gradient(to left, #6fbbf5, #8e54e9);
+    color: beige;
+    border-radius: 4px;
+    margin-top: 4rem;
+    padding: 0.4rem;
+} */
