@@ -13,6 +13,14 @@ form {
     justify-content: center;
 }
 
+.wrapLogin {
+    flex-direction: row;
+}
+
+.welcome {
+    margin-top: 100px;
+}
+
 .containerLogin {
     position: relative;
     margin: 150px 10px 50px 800px;
@@ -27,7 +35,7 @@ form {
 }
 
 .inputLogin {
-    
+
     margin-top: 2.5rem;
     text-align: center;
     
@@ -56,7 +64,6 @@ form input[type="submit"] {
 }
 
 .swapLogin {
-    /* margin-left: 175px; */
     text-align: center;
     margin-top: 20%;
 
@@ -64,42 +71,4 @@ form input[type="submit"] {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/* .input-field {
-    position: relative;
-    flex-direction: row;
-    margin-top: 1rem;
-    font-size: 20px;
-}
-.input-field input {
-    padding: 0.5rem;
-    font-size: 20px;
-}
-
-.Login {
-    position: relative;
-    margin: 20px 75px 75px 90px;
-}
-
-form input[type="submit"] {
-    background-color: limegreen;
-    color: white;
-    border-radius: 10px;
-    margin-top: 1rem;
-    padding: 0.4rem;
-    font-size: 30px;
-}
-
-.swapPage {
-    margin-left: 175px;
-} */
 

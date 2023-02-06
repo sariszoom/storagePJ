@@ -1,23 +1,39 @@
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COmpatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <link rel="stylesheet" href="views/app.css">
+    <title>AdminLogin</title>
 </head>
 <body>
-    <form action="/user-admin" method="post">
-        <h2>Login</h2>
-        <div class="input-field">
-            <input type="text" name="username" id="username" placeholder="Enter Username">
+    <form action="/user" method="post">
+        <div class="wrapLogin">
+            <div class="welcome">
+                <h1>Welcome to storage system!</h1>
+            </div>
+            <div class="containerLogin">
+                <div class="textLogin">
+                    <h2>Admin Login</h2>
+                </div>
 
-        </div>
-        <div class="input-field">
-            <input type="password" name="password" id="password" placeholder="Enter Password">
-        </div>
+                <div class="inputLogin">
+                    <input type="text" name="username" id="username" placeholder="Enter Username">
 
-        <div class="ALogin">
-            <input type="submit" id="ALogin" value="login Admin">
-            
+                </div>
+                <div class="inputLogin">
+                    <input type="password" name="password" id="password" placeholder="Enter Password">
+                </div>
+
+                <div class="submitLogin">
+                    <input type="submit" id="BLogin" value="Login as admin">
+                </div>
+
+                <div class="swapLogin">
+                    <a href="/login">login as Borrower</a>
+                </div>
+            </div>
         </div>
-       <a href="/login">login User</a>
     </form>
     
 </body>
