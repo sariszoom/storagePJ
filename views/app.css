@@ -9,29 +9,39 @@ body {
 
 form {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
 }
 
 .wrapLogin {
     flex-direction: row;
-}
 
+}
+.containerWelcome {
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+    justify-content: flex-start;
+}
 .welcome {
     margin-top: 100px;
 }
-
+.storagePic {
+    margin-top: 6rem;
+}
 .containerLogin {
     position: relative;
-    margin: 150px 10px 50px 800px;
+    margin: 120px 10px 50px 800px;
     border-radius: 10%;
     background-color: white;
+    justify-content: flex-end;
     
 }
 
 .textLogin {
     text-align: center;
     font-size: 30px;
+    padding: 1rem;
 }
 
 .inputLogin {
@@ -66,6 +76,7 @@ form input[type="submit"] {
 .swapLogin {
     text-align: center;
     margin-top: 20%;
+    padding: 0.5rem;
 
 
 }
