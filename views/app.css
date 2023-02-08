@@ -3,14 +3,14 @@
 }
 body {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     background-color: #6fbbf5;
 }
 
 form {
     display: flex;
     /* flex-direction: column; */
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .wrapLogin {
@@ -18,20 +18,20 @@ form {
 
 }
 .containerWelcome {
-    float: left;
-    text-align: center;
-    margin-left: 100px;
+    position: absolute;
+    margin-left: 200px;
     justify-content: flex-start;
 }
 .welcome {
+    /* text-align: center; */
     margin-top: 100px;
 }
 .storagePic {
     margin-top: 6rem;
 }
 .containerLogin {
-    position: relative;
-    margin: 120px 10px 50px 800px;
+    position: absolute;
+    margin: 120px 100px 50px 1000px;
     border-radius: 10%;
     background-color: white;
     justify-content: flex-end;

@@ -27,7 +27,7 @@ app.use(express.static(__dirname));
 app.use(cookieParser());
 
 //Setup authentication credential
-const myusername = 'admin'
+const myusername = 'zoomBorrow'
 const mypassword = '12345'
 
 // a variable to save a session
@@ -55,7 +55,7 @@ app.post('/user',(req,res)=>{
         session=req.session;
         session.useeid=req.body.username;
         console.log(req.session)
-        res.send(`Hello, welcome <a href=\'/logout'>click to logout</a>`);
+        res.sendFile('views/Borrower/BorrowandReturn.html',{root:__dirname});
 
     }
     else{
